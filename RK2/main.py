@@ -78,10 +78,6 @@ class test(unittest.TestCase):
         ]
 
     def testSort(self):
-        """
-        Тест для проверки функции сортировки таблиц по базе данных.
-        Проверяет, правильно ли сопоставляются названия баз данных и таблиц.
-        """
         expected = [
             ("Database Alpha", "Table 1"),
             ("Database Alpha", "Table 2"),
